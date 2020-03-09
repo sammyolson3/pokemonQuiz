@@ -1,0 +1,45 @@
+<resources>
+    /*title page*/
+    <string name="app_name">Pokemon Trainer Quiz</string>
+    <string name="appTitle">Welcome to the Pokemon Trainer Quiz</string>
+    <string name="trainerName">Please enter your name:</string>
+    <string name="btnStart">Start!</string>
+    <string name="editName">Ash Ketchum</string>
+    <string name="recentTrainer">Recent Trainers:</string>
+    <string name="trainerDB">There's no recent trainers...</string>
+
+    /*question 1*/
+    <string name="questionOne"></string>
+    <string name="q1b1"></string>
+    <string name="q1b2"></string>
+    <string name="q1b3"></string>
+    <string name="q1b4"></string>
+
+    /*question 2*/
+    <string name="questionTwo"></string>
+    <string name="q2b1"></string>
+    <string name="q2b2"></string>
+    <string name="q2b3"></string>
+    <string name="q2b4"></string>
+
+    /*question 3*/
+    <string name="questionThree"></string>
+    <string name="q3b1"></string>
+    <string name="q3b2"></string>
+    <string name="q3b3"></string>
+    <string name="q3b4"></string>
+
+    /*question 4*/
+    <string name="questionFour"></string>
+    <string name="q4b1"></string>
+    <string name="q4b2"></string>
+    <string name="q4b3"></string>
+    <string name="q4b4"></string>
+
+    /*question 5*/
+    <string name="questionFive"></string>
+    <string name="q5b1"></string>
+    <string name="q5b2"></string>
+    <string name="q5b3"></string>
+    <string name="q5b4"></string>
+</resources>
