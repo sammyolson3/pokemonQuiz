@@ -5,43 +5,65 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".QuestionOneActivity">
+
     <TextView
         android:id="@+id/questionOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="109dp"
         android:text="@string/questionOne"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="34dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/q1b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="147dp"
         android:text="@string/q1b1"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="101dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionOne" />
 
     <Button
         android:id="@+id/q1b2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="string/q1b2"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="171dp" />
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="136dp"
+        android:text="@string/q1b2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q1b" />
 
     <Button
         android:id="@+id/q1b3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="string/q1b3"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="250dp" />
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="135dp"
+        android:text="@string/q1b3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q1b2" />
 
     <Button
         android:id="@+id/q1b4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="string/q1b4"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="331dp" />
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="135dp"
+        android:text="@string/q1b4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q1b3" />
 </android.support.constraint.ConstraintLayout>

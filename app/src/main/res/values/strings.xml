@@ -5,15 +5,15 @@
     <string name="trainerName">Please enter your name:</string>
     <string name="btnStart">Start!</string>
     <string name="editName">Ash Ketchum</string>
-    <string name="recentTrainer">Recent Trainers:</string>
-    <string name="trainerDB">There's no recent trainers...</string>
+    <string name="recentTrainer">Recent Trainers: </string>
+    <string name="trainerDB">There are no recent trainers...</string>
 
     /*question 1*/
-    <string name="questionOne"></string>
-    <string name="q1b1"></string>
-    <string name="q1b2"></string>
-    <string name="q1b3"></string>
-    <string name="q1b4"></string>
+    <string name="questionOne">What is music preference?</string>
+    <string name="q1b1">Country</string>
+    <string name="q1b2">Rock</string>
+    <string name="q1b3">Hip Hop</string>
+    <string name="q1b4">Pop</string>
 
     /*question 2*/
     <string name="questionTwo"></string>

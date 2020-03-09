@@ -10,4 +10,9 @@ public class QuestionOneActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question_one);
     }
+
+    @Override
+    protected void onStart(){
+        super.onStart();
+    }
 }
