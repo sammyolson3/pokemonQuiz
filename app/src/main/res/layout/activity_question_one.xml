@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/q1b"
+        android:id="@+id/q1b1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="147dp"
@@ -41,7 +41,7 @@
         android:text="@string/q1b2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/q1b" />
+        app:layout_constraintTop_toBottomOf="@+id/q1b1" />
 
     <Button
         android:id="@+id/q1b3"
