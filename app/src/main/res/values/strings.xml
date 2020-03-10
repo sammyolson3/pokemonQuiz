@@ -16,30 +16,35 @@
     <string name="q1b4">Pop</string>
 
     /*question 2*/
-    <string name="questionTwo"></string>
-    <string name="q2b1"></string>
-    <string name="q2b2"></string>
-    <string name="q2b3"></string>
-    <string name="q2b4"></string>
+    <string name="questionTwo">Which one of these is your favorite pokemon?</string>
+    <string name="q2b1">Pikachu</string>
+    <string name="q2b2">Charizard</string>
+    <string name="q2b3">Weedle</string>
+    <string name="q2b4">Squirtle</string>
 
     /*question 3*/
-    <string name="questionThree"></string>
-    <string name="q3b1"></string>
-    <string name="q3b2"></string>
-    <string name="q3b3"></string>
-    <string name="q3b4"></string>
+    <string name="questionThree">If you had to eat one...</string>
+    <string name="q3b1">Pickle Ice Cream</string>
+    <string name="q3b2">Chocolate and Cheese Pizza</string>
+    <string name="q3b3">Pepper on Apple Slices</string>
+    <string name="q3b4">Blueberries in Bleu Cheese Dressing</string>
 
     /*question 4*/
-    <string name="questionFour"></string>
-    <string name="q4b1"></string>
-    <string name="q4b2"></string>
-    <string name="q4b3"></string>
-    <string name="q4b4"></string>
+    <string name="questionFour">What is most valuable in life?</string>
+    <string name="q4b1">Education</string>
+    <string name="q4b2">Love</string>
+    <string name="q4b3">Family</string>
+    <string name="q4b4">Pokemon</string>
 
     /*question 5*/
-    <string name="questionFive"></string>
-    <string name="q5b1"></string>
-    <string name="q5b2"></string>
-    <string name="q5b3"></string>
-    <string name="q5b4"></string>
+    <string name="questionFive">What is your favorite coding language?</string>
+    <string name="q5b1">Javascript</string>
+    <string name="q5b2">C Sharp</string>
+    <string name="q5b3">Java</string>
+    <string name="q5b4">Visual Basic</string>
+
+    /*Result*/
+    <string name="trainer">Trainer:</string>
+    <string name="trainerType">Your specialty is training...</string>
+    <string name="btnRestart">Start Over!</string>
 </resources>

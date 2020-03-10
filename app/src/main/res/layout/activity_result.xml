@@ -4,66 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuestionOneActivity">
+    tools:context=".ResultActivity">
 
     <TextView
-        android:id="@+id/questionOne"
+        android:id="@+id/trainer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="110dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="110dp"
-        android:text="@string/questionOne"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="297dp"
+        android:text="@string/trainer"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="265dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/trainerType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="178dp"
+        android:text="@string/trainerType"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trainer" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="281dp"
+        android:layout_marginEnd="265dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/q1b1"
+        android:id="@+id/btnRestart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="147dp"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="147dp"
-        android:text="@string/q1b1"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="150dp"
+        android:text="@string/btnRestart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/questionOne" />
-
-    <Button
-        android:id="@+id/q1b2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="136dp"
-        android:text="@string/q1b2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/q1b1" />
-
-    <Button
-        android:id="@+id/q1b3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="135dp"
-        android:text="@string/q1b3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/q1b2" />
-
-    <Button
-        android:id="@+id/q1b4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="135dp"
-        android:text="@string/q1b4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/q1b3" />
+        app:layout_constraintTop_toBottomOf="@+id/trainerType" />
 </android.support.constraint.ConstraintLayout>
