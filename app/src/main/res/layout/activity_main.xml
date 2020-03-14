@@ -10,23 +10,24 @@
         android:id="@+id/appTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="57dp"
-        android:layout_marginEnd="73dp"
-        android:layout_marginBottom="436dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="640dp"
         android:text="@string/appTitle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/trainerName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="118dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="117dp"
         android:text="@string/trainerName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +50,7 @@
         android:id="@+id/editName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="84dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="84dp"
         android:ems="10"
@@ -60,28 +61,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/trainerName" />
 
-    <TextView
-        android:id="@+id/trainerDB"
-        android:layout_width="340dp"
-        android:layout_height="163dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginEnd="22dp"
-        android:text="@string/trainerDB"
+    <Button
+        android:id="@+id/btnDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="126dp"
+        android:text="@string/btnDB"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recentTrainer" />
-
-    <TextView
-        android:id="@+id/recentTrainer"
-        android:layout_width="120dp"
-        android:layout_height="23dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="83dp"
-        android:layout_marginEnd="242dp"
-        android:text="@string/recentTrainer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editName" />
+        app:layout_constraintTop_toBottomOf="@+id/btnStart" />
 
 </android.support.constraint.ConstraintLayout>
